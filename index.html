@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign In || Sign Up Form</title>
-    <!-- font awesome icons -->
+    <!-- Font awesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- css stylesheet -->
+    <!-- CSS stylesheet -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container" id="container">
+        <!-- Sign up container -->
         <div class="form-container sign-up-container">
             <form action="#">
                 <h1>Create Account</h1>
@@ -36,6 +37,7 @@
                 <button type="button">Sign Up</button>
             </form>
         </div>
+        <!-- Sign in container -->
         <div class="form-container sign-in-container">
             <form action="#">
                 <h1>Sign in</h1>
@@ -59,11 +61,13 @@
         </div>
         <div class="overlay-container" id="overlayCon">
             <div class="overlay">
+                <!-- Sign in overlay -->
                 <div class="overlay-panel overlay-left">
                     <h1>Welcome Back!</h1>
                     <p>To keep connected with us please login into your account</p>
                     <button type="button">Sign In</button>
                 </div>
+                <!-- Sign up overlay -->
                 <div class="overlay-panel overlay-right">
                     <h1>Hello, Friend!</h1>
                     <p>Enter your personal details and start journey with us</p>
@@ -74,7 +78,7 @@
         </div>
     </div>
 
-    <!-- js code -->
+    <!-- Js code -->
     <script>
         const container = document.getElementById("container");
         const overlayCon = document.getElementById("overlayCon");
